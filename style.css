@@ -3,14 +3,73 @@
     padding: 0;
 }
 
-/* h1 {
+/* CORES DA PALETA NESSE SITE https://www.w3schools.com/colors/colors_picker.asp */
+
+/* TÍTULO PRINCIPAL */
+h1 {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 2vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: lightcoral;
+    background-color: #8ea3be;
     padding: 30px;
-    
-} */
+}
 
+nav {
+    background-color:#eff2f6;
+    padding: 12px;
+}
+
+/* CLASSE DO MENU NAVEGAÇÃO */
+.botoes-de-nav {
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+}
+
+main {
+    display: grid;
+    padding: 50px;
+    
+}
+
+/* TÍTULO DO TEXTO  */
+h2 {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+/* CLASSE DA IMAGEM */
+.card-imagem {
+    display: flex;
+    padding: 5em 0;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* FORMULÁRIO DO LOGIN E CADASTRO */
+table {
+    display: flex;
+    padding: 30px;
+    height: 20vh;
+    align-items: center;
+}
+
+.botao-cadastrar {
+    display: flex;  
+    padding: 30px;
+}
+
+footer {
+    display: flex;
+    min-height: 50px;
+    align-items: center;    
+    justify-content: center;
+    background-color: #3B4F67;
+    grid-column: 1/-1;
+    
+}
