@@ -3,7 +3,8 @@
     padding: 0;
 }
 
-/* CORES DA PALETA NESSE SITE https://www.w3schools.com/colors/colors_picker.asp */
+/* CORES DA PALETA NESSE SITE https://www.w3schools.com/colors/colors_picker.asp  
+usar essa cor de base: (#3B4F67 ***COR AZUL***) (#6b9369 ***COR VERDE***)*/
 
 /* TÍTULO PRINCIPAL */
 h1 {
@@ -11,14 +12,60 @@ h1 {
     align-items: center;
     justify-content: center;
     height: 2vh;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #8ea3be;
+    font-family: 'Heebo', sans-serif;
+    color: #253241;
     padding: 30px;
+    background-color: #becbda;
+    
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    
+}
+
+/* SECTION DO TÍTULO DO TEXTO DE INTRODUÇÃO */
+.section-um {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 24px;
+    position: relative;
+    padding: 0px;
+    background-color: #3B4F67;
+}
+
+/* CLASSE DO PARÁGRAFO DE APRESENTAÇÃO */
+.grid-da-section-um {
+    background-color: #3B4F67;
+    display: flex;
+    padding: 0px 0px 0px 80px;
+    margin-top: 0px;    
+    justify-content: center;
+    /* width: 100%; */
+    align-items: center;
 }
 
 nav {
     background-color:#eff2f6;
     padding: 12px;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* HOVER E ACTIVE DOS BOTÕES LOGIN E CADASTRO */
+#icone-e-texto:hover {
+    background-color: #ced8e3
+}
+
+button:hover {
+    background-color: #ced8e3
+}
+
+button:active {
+    background-color: #aebed0;
 }
 
 /* CLASSE DO MENU NAVEGAÇÃO */
@@ -31,6 +78,7 @@ nav {
 main {
     display: grid;
     padding: 50px;
+    height: 100vh;
     
 }
 
@@ -42,7 +90,7 @@ h2 {
     
 }
 
-/* CLASSE DA IMAGEM */
+/* CLASSE DA IMAGEM DESNECESSÁRIA DE ESPAÇO NO MEIO DO SITE (APENAS PARA TESTE) */
 .card-imagem {
     display: flex;
     padding: 5em 0;
@@ -54,9 +102,14 @@ h2 {
 /* FORMULÁRIO DO LOGIN E CADASTRO */
 table {
     display: flex;
-    padding: 30px;
-    height: 20vh;
+    padding: 50px;
+    height: 70vh;
     align-items: center;
+}
+
+tr {
+    height: 4vh;
+    
 }
 
 .botao-cadastrar {
@@ -64,12 +117,21 @@ table {
     padding: 30px;
 }
 
+/* UM CONTAINER GUARDANDO AS DIVS E O FOOTER, NÃO PRECISA TIRAR DO LUGAR  */
+
+/* .container-principal {
+    display: flex;
+    flex-direction: column;
+
+} */
+
+/* O FOOTER TÁ NO LUGAR CERTO JÁ, SÓ  MEXER PARA COLOCAR OS LINKS DAS REDES SOCIAIS */
 footer {
     display: flex;
-    min-height: 50px;
+    min-height: 7vh;
     align-items: center;    
     justify-content: center;
-    background-color: #3B4F67;
+    background-color: #becbda;
     grid-column: 1/-1;
     
 }
