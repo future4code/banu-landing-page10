@@ -322,3 +322,13 @@ p {
     box-sizing: border-box;
     
 }
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */
+    }
+    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    /* tablets */
+    }
+    @media screen and (min-device-width : 1200px) {
+    /* computadores */
+    }
