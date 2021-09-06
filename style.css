@@ -306,3 +306,29 @@ footer {
 p {
     font-family: 'Roboto', sans-serif;
 }
+
+/* configurações da aba serviços */
+
+#container-planos-e-seguros > img {
+    width: auto;
+    height: 35px;
+}
+
+#container-planos-e-seguros{
+    display: grid;
+    margin: auto;    
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
+    box-sizing: border-box;
+    
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */
+    }
+    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    /* tablets */
+    }
+    @media screen and (min-device-width : 1200px) {
+    /* computadores */
+    }
